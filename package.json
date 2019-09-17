@@ -1,0 +1,8 @@
+{
+“name”: “BotBear”,
+“version”: “0.0.1”,
+“description”: “A bot for personal use”,
+“main”: “bot.js”,
+“author”: “Janne Karhu”,
+“dependencies”: {}
+}
