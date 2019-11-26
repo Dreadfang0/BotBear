@@ -1,6 +1,6 @@
-var Discord = require('discord.io');
-var logger = require('winston');
-var auth = require('./auth.json');
+var Discord = require("discord.io");
+var logger = require("winston");
+var auth = require("./auth.json");
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
     colorize: true
@@ -36,3 +36,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
      }
 });
+/*function rollTheDice(int amount, int dice)
+{
+	var result[];
+	for(int i = 0; i < amount; i++)
+	{
+		result[i] = Math.floor(Math.random() * dice - 0 + 1);
+		
+	}
+	var output = result.toString();
+	return output;
+}*/
+
+
+
